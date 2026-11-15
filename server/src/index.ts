@@ -37,8 +37,8 @@ app.use('/api/ai', fiaRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  console.log(`FIREWEAVE server listening on http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`FIREWEAVE server listening on port ${PORT}`);
   console.log(`FIRMS MAP_KEY configured: ${!!process.env.FIRMS_MAP_KEY && !/^(?:YOUR_|REPLACE|PLACEHOLDER)/i.test(process.env.FIRMS_MAP_KEY.trim())}`);
 });
 
