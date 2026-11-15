@@ -1,0 +1,13 @@
+{
+  "name": "fireweave",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FIREWEAVE - Regional Wildfire Intelligence & NASA FIRMS Heatmap",
+  "scripts": {
+    "dev:server": "npm run --prefix server dev",
+    "dev:client": "npm run --prefix client dev",
+    "build": "npm run --prefix server build && npm run --prefix client build",
+    "start:server": "npm run --prefix server start",
+    "preview:client": "npm run --prefix client preview"
+  }
+}

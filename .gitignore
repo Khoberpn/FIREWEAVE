@@ -1,0 +1,39 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Runtime cache and compiler artifacts
+**/cache.json
+*.tsbuildinfo
+
+# Runtime caches and build metadata
+**/cache.json
+*.tsbuildinfo
+
+# Runtime caches and build metadata
+**/cache.json
+*.tsbuildinfo

@@ -1,0 +1,2 @@
+import { Shield } from 'lucide-react';
+export default function PageFooter({ latest }: { latest:string }) { return <footer className="page-footer"><Shield size={13}/><span>SPACE-BASED HOTSPOT DETECTIONS <span className="footer-separator">/</span> NOT INDIVIDUAL FIRES OR BURNED AREA</span><span className="footer-grow"/><span>{latest?`LAST ACQUISITION · ${latest}`:'DATA VIA NASA LANCE / FIRMS'}</span></footer>; }
